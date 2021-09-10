@@ -20,13 +20,33 @@ Commit your code regularly and meaningfully.
 ## Interview Questions
 ### (please edit this file and write your answer below each question.)
 
+<!-- MY ANSWERS ARE IN THE COMMENTS BELOW -->
+<!-- I SUBMITTED ANSWERS ON THE 1ST SPRINT CHALLENGE BUT THE GRADER SAID I HAD NOT. AGAIN, MY ANSWERS ARE THE COMMENTS BELOW -->
+
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+    <!-- ANSWER: Accessibility on the web, is the practice of designing for inclusivity, to remove/reduce barriers that would prevent people from using and interacting with a website -->
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+    <!-- ANSWER: 
+        (1) Use responsive design so that your website can be used across devices with different screen sizes (desktop, tablet, phone)
+        (2) Use dynamic font-sizes that can change based on user input.  Avoid hard coding values that overwrite a users preferences.
+        (3) Use semantic HTML, not only is this a good coding practice for others to understand your code, but it also allows individuals with screen readers to navigate your site more effectively.
+        (4) Size images according to best practices. This will ensure that individuals without high-speed internet are able to load and use your site.
+    -->
 3. How would you explain the concept of a variable to someone new to programming?
+    <!-- ANSWER: A variable is placeholder in the computer's memory for storing a value.  The variable will have a unique name and can store any type of data, including strings, numbers, booleans, arrays, objects, and more (e.g., null, undefined).  -->
+
 4. What is the purpose of using functions in code?
+    <!-- ANSWER: Function allow you to protect a block of code, that will only run when called.  This also allows you to write code once but use repeatedly throughout you program.  -->
+
 5. How do you access a key inside of an object inside of an array?
+    <!-- ANSWER: You can access a key via: 
+        (1) Using dot notation IF you know the name of the key.  e.g. object.key 
+        (2) Using bracket notation if you want to pass a variable as the key.  e.g. object[variableName], where the variable is a string that = the key name.
+        (3) You can also use bracket notation if you know the name of the key, but dot notion is clearer.  e.g. object['key']
+    -->
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
